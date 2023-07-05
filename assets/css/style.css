@@ -1,0 +1,45 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+}
+
+.cabecalho_esquerda {
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem_porco {
+    color: rgba(0, 239, 68, 0.799);
+}
+
+.cabecalho_esquerda p {
+    color: rgba(0, 239, 68, 0.799);
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #26b5105e;
+}
+
+.cabecalho_direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(6, 6, 6, 0.982);
+    width: 50%;
+}
+
+
+
+.botoes_entrada {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

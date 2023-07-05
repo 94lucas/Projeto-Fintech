@@ -1,0 +1,43 @@
+@media (max-width:900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    /*header Ex cabeçalho esquerdo*/
+    .cabecalho_esquerda {
+        width: 100vw;
+        background-color: black;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .imagem_porco {
+        color: rgba(0, 239, 68, 0.799);
+        width: 4rem;
+
+    }
+
+    .cabecalho_esquerda p {
+        color: rgba(0, 239, 68, 0.799);
+        font-size: 3rem;
+        font-family: 'Poppins', sans-serif;
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: #26b5105e;
+        
+    }
+    /* body (ex cabecalho direito*/
+    .cabecalho_direita {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(6, 6, 6, 0.982);
+        width: 100vw;
+        height: 100vh;
+    }
+}
